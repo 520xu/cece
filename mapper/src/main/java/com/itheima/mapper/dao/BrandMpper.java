@@ -7,7 +7,7 @@ import tk.mybatis.mapper.common.Mapper;
 import java.util.List;
 
 public interface BrandMpper extends Mapper<Brand> {
-
+    //在线修改
     @Select("SELECT * FROM `pms_brand`")
     List<Brand> selectAll ();
 }
