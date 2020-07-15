@@ -24,7 +24,7 @@ public class MapperApplicationTests {
             System.out.println(brand.getName());
         }
     }
-
+    //更新1
     @Test
     public void  selectAll(){
         List<Brand> brands = brandMpper.selectAll();
