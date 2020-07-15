@@ -25,6 +25,7 @@ public class MapperApplicationTests {
         }
     }
     //更新1
+    //更新2
     @Test
     public void  selectAll(){
         List<Brand> brands = brandMpper.selectAll();
